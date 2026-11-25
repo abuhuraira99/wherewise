@@ -1,0 +1,73 @@
+:root {
+  /* ground: frosted drafting film, cool, never cream */
+  --film: #e8ebe7;
+  --film-2: #dde1dc;
+  --sheet: #f4f5f2;
+  --sheet-2: #fbfbf9;
+
+  /* technical ink */
+  --ink: #14181d;
+  --ink-2: #353c43;
+  --ink-3: #555d64;
+  --ink-4: #7b8389;
+  --rule: rgba(20, 24, 29, 0.16);
+  --rule-2: rgba(20, 24, 29, 0.28);
+  --grid: rgba(20, 24, 29, 0.045);
+
+  /* field-book yellow */
+  --book: #f2cd2c;
+  --book-2: #e7bd12;
+  --book-3: #fbe58a;
+  --book-ink: #231d05;
+  --book-ink-2: #4a3f0c;
+
+  /* flagging tape: the single signal colour */
+  --flag: #ff2f7d;
+  --flag-2: #e01563;
+  --flag-soft: #ffd3e3;
+
+  /* data roles */
+  --hot: #b8203a;
+  --hot-2: #e5675f;
+  --cold: #2c5e8f;
+  --cold-2: #5f8fbb;
+  --ok: #2f7d4f;
+  --warn: #b66a00;
+
+  /* type */
+  --sans: 'Archivo Variable', 'Archivo', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'Martian Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+
+  --fs-xs: 0.6875rem;
+  --fs-sm: 0.8125rem;
+  --fs-md: 0.9375rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2.25rem;
+  --fs-3xl: clamp(2.6rem, 5.2vw, 4.75rem);
+
+  /* rhythm: 8pt survey module */
+  --u: 8px;
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --s8: 72px;
+  --s9: 112px;
+
+  --radius: 2px;
+  --shadow-1: 0 1px 2px rgba(20, 24, 29, 0.08), 0 4px 14px rgba(20, 24, 29, 0.06);
+  --shadow-2: 0 2px 6px rgba(20, 24, 29, 0.1), 0 18px 40px rgba(20, 24, 29, 0.14);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --grid-bg:
+    linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 24px 24px,
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 24px 24px;
+  --cross: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96'%3E%3Cpath d='M48 42v12M42 48h12' stroke='%2314181d' stroke-opacity='.2' stroke-width='1'/%3E%3C/svg%3E");
+  --ticks: repeating-linear-gradient(90deg, var(--rule-2) 0 1px, transparent 1px 8px);
+  --ticks-major: repeating-linear-gradient(90deg, var(--ink-2) 0 1px, transparent 1px 40px);
+}
